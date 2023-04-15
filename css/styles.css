@@ -188,6 +188,7 @@ body {
   letter-spacing: 0.02em;
 }
 .project-card-text {
+  color: var(--body-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
