@@ -20,17 +20,30 @@ body {
   text-transform: uppercase;
   color: var(--btn-background-color);
 }
-.logo-link-studio {
-  color: var(--title-text-color);
-}
-.logo-link-studio-white {
-  color: #f4f4fd;
-}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+.unvizible-title {
+  visibility: hidden;
+}
+.title {
+  color: var(--title-text-color);
+}
+
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+/*----------header section---------- */
+.logo-link-studio {
+  color: var(--title-text-color);
+}
+.logo-link-studio-white {
+  color: #f4f4fd;
 }
 .menu-link {
   font-weight: 500;
@@ -57,16 +70,7 @@ body {
 .contact-link:focus {
   color: var(--links-hover-color);
 }
-
-.title {
-  color: var(--title-text-color);
-}
-
-.button {
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-}
+/* ----------hero section---------- */
 .hero-section {
   background-color: var(--title-text-color);
   color: #ffffff;
@@ -92,9 +96,7 @@ body {
 .hero-btn:focus {
   background: var(--links-hover-color);
 }
-.unvizible-title {
-  visibility: hidden;
-}
+/* ----------features section---------- */
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -107,6 +109,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* ----------doing section---------- */
 .doing-title {
   font-size: 36px;
   line-height: 1.11;
@@ -114,6 +117,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+/* ----------team---------- */
 .team {
   background: #f4f4fd;
 }
@@ -144,6 +148,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+/* -----------footer----------- */
 .footer {
   background: #2e2f42;
 }
@@ -155,7 +160,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-/* portfolio page-------------------- */
+/* ------------portfolio page-------------------- */
 .portfolio-header {
   border-bottom: 1px solid #e7e9fc;
 }
